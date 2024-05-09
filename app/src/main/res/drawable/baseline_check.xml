@@ -1,0 +1,30 @@
+<!--<vector android:height="24dp" android:tint="#000000"-->
+<!--    android:viewportHeight="24" android:viewportWidth="24"-->
+<!--    android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <path android:fillColor="@android:color/white" android:pathData="M9,16.17L4.83,12l-1.42,1.41L9,19 21,7l-1.41,-1.41z"/>-->
+<!--</vector>-->
+
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:height="24dp"
+    android:width="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <path
+        android:pathData="M9,16.17L4.83,12l-1.42,1.41L9,19 21,7l-1.41,-1.41">
+        <aapt:attr name="android:tint">
+            <gradient android:type="linear" android:startY="0.0" android:endY="24.0" android:startX="0.0" android:endX="0.0">
+                <item android:offset="0.0" android:color="?android:attr/colorControlNormal" />
+                <item android:offset="1.0" android:color="?android:attr/colorControlActivated" />
+            </gradient>
+        </aapt:attr>
+        <aapt:attr name="android:fillColor">
+            <gradient android:type="linear" android:startY="0.0" android:endY="24.0" android:startX="0.0" android:endX="0.0">
+                <item android:offset="0.0" android:color="?android:attr/colorControlNormal" />
+                <item android:offset="1.0" android:color="?android:attr/colorControlActivated" />
+            </gradient>
+        </aapt:attr>
+    </path>
+</vector>

@@ -1,0 +1,22 @@
+buildscript {
+    repositories {
+        google() // Add this line to use Google's Maven repository
+        mavenCentral() // Add this line to use Maven Central repository
+    }
+    ext {
+        kotlin_version = '1.8.10'
+        nav_version = '2.5.0'
+        gradle_version = '7.4.2' // Update to the latest compatible Gradle version
+
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:$gradle_version")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
+        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
+    }
+}
+
+// Use the latest compatible Gradle version
+wrapper {
+    gradleVersion = gradle_version
+}

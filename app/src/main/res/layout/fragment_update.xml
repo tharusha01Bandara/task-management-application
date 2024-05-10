@@ -19,7 +19,7 @@
 
         <EditText
             android:id="@+id/updateTitle"
-            android:textColor = "?android:textColorPrimary"
+            android:textColor = "#080A19"
             android:layout_width="0dp"
             android:layout_height="60dp"
             android:paddingStart="24dp"
@@ -52,7 +52,7 @@
 
         <EditText
             android:id="@+id/updateTextMultiLine"
-            android:textColor = "?android:textColorPrimary"
+            android:textColor = "#080A19"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginTop="8dp"

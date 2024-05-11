@@ -5,6 +5,7 @@ updating task and prioritizing tasks. The application employs SQLite database fu
 through the Room library, facilitating local storage of task data directly on the device. 
 
 Features:
+
 •	Navigation Component: Utilizes the Navigation Component for smooth navigation between different screens and fragments within the app.
 
 •	Safe Args: Safely passes data between fragments using Safe Args to prevent runtime errors.
